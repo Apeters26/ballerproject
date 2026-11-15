@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "title": "Drone Lab vision film",
+  "provenance": "Chapter data transcribed from earlier browser inspection in the project conversation; original JSON, MP4 and caption bytes were not recovered.",
+  "observed_duration_seconds": 72,
+  "original_video_recovered": false,
+  "narration_added": false,
+  "published_update_verified": false,
+  "original_site": "https://drone-lab-review-baller.apeters26.chatgpt.site/",
+  "original_video_path": "assets/vision/drone-vision.mp4",
+  "original_captions_path": "assets/vision/drone-vision.vtt",
+  "disclaimer": "Planned product experience. Visuals and example records are illustrative; no working simulator or measured outcomes are claimed.",
+  "chapters": [
+    {
+      "start_seconds": 0,
+      "end_seconds": 8,
+      "title": "The product vision",
+      "text": "A virtual flight laboratory for building and understanding autonomous systems. Build. Observe. Compare. Improve. This is the intended product experience.",
+      "references": ["vision", "R0", "R1", "R2", "R3"]
+    },
+    {
+      "start_seconds": 8,
+      "end_seconds": 22,
+      "title": "Autonomous flight",
+      "text": "Start a known mission. The virtual drone flies without operator steering. The mission judge awards five gates in order, using the same flight rules. A valid landing completes the mission. Preserve the run for independent review.",
+      "references": ["R1", "R2", "P02", "P03", "P04"]
+    },
+    {
+      "start_seconds": 22,
+      "end_seconds": 32,
+      "title": "Replay and explain",
+      "text": "Scrub the saved flight and jump to the exact event that changed its outcome. Inspect the course, controller, trajectory and judge events together.",
+      "references": ["R1", "R2", "P07"]
+    },
+    {
+      "start_seconds": 32,
+      "end_seconds": 42,
+      "title": "Compare fairly",
+      "text": "Compare controllers on identical inputs. Completion comes before speed. Show failed runs and their reasons. Keep the original baseline reproducible.",
+      "references": ["R2", "P08"]
+    },
+    {
+      "start_seconds": 42,
+      "end_seconds": 51,
+      "title": "Test robustness",
+      "text": "Expand to seeded courses and isolated disturbances with a locked protocol. Report every attempt and paired outcome. Separate development from evaluation.",
+      "references": ["R3"]
+    },
+    {
+      "start_seconds": 51,
+      "end_seconds": 61,
+      "title": "Explore research branches",
+      "text": "After the benchmark, choose learned control, two-drone missions or bounded AI experiments. Each research branch earns its own evidence. Hardware remains an optional feasibility decision.",
+      "references": ["R4", "R5", "R6", "R7"]
+    },
+    {
+      "start_seconds": 61,
+      "end_seconds": 72,
+      "title": "Connect vision to release evidence",
+      "text": "Connect the vision, specifications, stories and acceptance criteria to delivery evidence. Link code, verification, acceptance and shipped versions. Publish release notes from that record.",
+      "references": ["vision", "traceability", "release-notes"]
+    }
+  ]
+}
